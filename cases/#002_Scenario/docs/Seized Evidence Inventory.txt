@@ -1,0 +1,14 @@
+Case Number: 2024-SMPA-CYBER-002
+Date of Seizure: March 02, 2024, 09:30 KST
+Location of Seizure: 402-ho, 15, Digital-ro 31-gil, Guro-gu, Seoul
+Seizing Officer: Sergeant Lee Min-ho
+Witness: Choi Jung-eun (Building Manager)
+
+Item #,Description,Manufacturer / Model,Serial Number,SHA-256 Hash (Forensic Image)
+E-01,Laptop Computer (Grey),Samsung Galaxy Book 3 Pro,SN-SGB3-9921-XK04,7f8a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e
+E-02,External SSD,Samsung T7 (1TB),SSD-T7-2024-0044B,a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2
+E-03,Smartphone (Black),Samsung Galaxy S23,IMEI-352984110092101,b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3
+E-04,USB Flash Drive (Blue),SanDisk Ultra 64GB,SD-USB-64G-991,c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4
+
+Seizure Protocol:
+All items were powered down (where applicable) and placed in anti-static Faraday bags. Item E-01 was found in a 'sleep' state; a volatile memory acquisition was performed on-site using Magnet RAM Capture prior to shutdown. Physical integrity was verified by the witness.

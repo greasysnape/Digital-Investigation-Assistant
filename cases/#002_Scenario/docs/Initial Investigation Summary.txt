@@ -1,0 +1,27 @@
+Case Reference Number: 2024-SMPA-CYBER-002
+Date of Report: March 05, 2024
+Investigating Unit: Cyber Crime Investigation Division, Seoul Metropolitan Police Agency (SMPA)
+Lead Investigator: Senior Inspector Park Ji-hoon
+
+1. Suspect Profile
+Name: Kim Chul-su (Pseudonym)
+Age: 29
+Occupation: Freelance Web Developer
+Address: 402-ho, 15, Digital-ro 31-gil, Guro-gu, Seoul, Republic of Korea
+
+2. Summary of Alleged Offence
+The suspect is alleged to have operated a distribution node on the "ShadowNet" dark web forum, specifically disseminating Child Sexual Abuse Material (CSAM). Preliminary intelligence provided by Interpol and the Federal Criminal Police Office of Germany (BKA) identified a recurrent uploader using the handle "GhostNode." Technical tracing indicated that "GhostNode" accessed the forum through a series of Tor exit nodes, ultimately originating from a static IP address assigned to "SafeWay VPN," a domestic Virtual Private Network provider based in Seoul.
+
+This investigation falls under the Act on the Protection of Children and Youth against Sexual Abuse (Article 11) and the Act on Promotion of Information and Communications Network Utilization and Information Protection (Article 44-7).
+
+3. Timeline of Events
+- 2024-02-10: BKA issues a Mutual Legal Assistance Treaty (MLAT) request regarding CSAM distribution originating from South Korean infrastructure.
+- 2024-02-15: Investigation initiated following Seoul Central District Court’s issuance of a search warrant for SafeWay VPN access logs (Warrant No. 2024-SW-9981).
+- 2024-02-18: SafeWay VPN logs reveal an encrypted tunnel established from IP 211.xxx.xxx.45 (assigned to Kim Chul-su) to the VPN gateway at the exact timestamps of the forum uploads.
+- 2024-03-02: Search and seizure warrant (Warrant No. 2024-SC-1004) executed at the suspect’s residence.
+
+4. Devices and Accounts for Examination
+- Target Device 01: Laptop computer (Primary workstation).
+- Target Device 02: External storage media found connected to the laptop.
+- Target Device 03: Mobile handset.
+- Target Accounts: chulsu.dev@k-mail.com, SafeWay VPN account ksu812, and local system credentials.

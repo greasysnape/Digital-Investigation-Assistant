@@ -1,0 +1,31 @@
+Case Reference Number: 2026-INTEL-0042
+
+Date of Report: March 05, 2026
+
+Investigating Unit: Gyeonggi Southern Provincial Police Agency, Industrial Security Investigation Division
+
+Lead Investigator: Inspector Park Ji-hoon
+
+1. Suspect Profile
+Name: Kim Chul-su (Male, 42)
+
+Affiliation: Senior Researcher, Design Team 2, NeoSemi Co., Ltd.
+
+Employment Status: Resignation tendered on February 25, 2026; currently on terminal leave.
+
+Address: 402-ho, 12, Pangyoyeok-ro, Bundang-gu, Seongnam-si, Gyeonggi-do, Republic of Korea.
+
+2. Summary of Alleged Offence
+The suspect is alleged to have violated the Act on Prevention of Divulgence and Protection of Industrial Technology and the Criminal Act (Occupational Breach of Trust). Internal auditing systems at NeoSemi Co., Ltd. flagged unauthorized access to the "Project AEGIS" server—containing proprietary 5nm Power Management IC (PMIC) circuit designs—between February 16 and February 18, 2026. The suspect is believed to have exfiltrated these trade secrets using a personal external storage device and a web-based email client to facilitate a move to a competitor based in Southeast Asia.
+
+3. Timeline of Key Events
+- 2026-02-16 22:14 KST: Suspect accessed Project AEGIS secure server from a workstation after standard business hours.
+- 2026-02-18 14:30 KST: Anomalous USB mounting event detected on the suspect's assigned laptop (Asset ID: NS-LT-8842).
+- 2026-02-18 15:05 KST: High-volume data transfer to a personal Gmail account observed via corporate firewall logs.
+- 2026-02-25 09:00 KST: Suspect submitted formal resignation, citing "personal reasons."
+
+4. Subject of Examination
+- One (1) Laptop: Samsung Galaxy Book 4 Pro (Company Issued).
+- One (1) USB Flash Drive: SanDisk Ultra 128GB (Suspected personal device).
+- One (1) Smartphone: Samsung Galaxy S24 Ultra (Personal).
+- Cloud Activity: Google account (cskim.researcher@gmail.com).

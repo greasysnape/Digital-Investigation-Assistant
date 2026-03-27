@@ -1,0 +1,28 @@
+Report ID: 2026-DF-011
+Lead Analyst: Senior Specialist Choi Sung-min
+
+Tools Used: Magnet AXIOM 7.9, Autopsy 4.21, Volatility 3, FTK Imager 4.7.
+1. USB Connection Analysis (E-01 & E-02)
+	Registry analysis of E-01 confirms the connection of E-02 (Serial: SD-128-A992).
+	- Path: SYSTEM\CurrentControlSet\Enum\USBSTOR\Disk&Ven_SanDisk&Prod_Ultra&Rev_1.00\SD-128-A992&0
+	- First Install Date: 2026-02-18 14:28:12 KST
+	- Last Connected Date: 2026-02-18 16:45:03 KST
+
+2. File Activity and Artefacts
+	Examination of LNK files and ShellBags on E-01 indicates navigation to a volume labeled "WORK_DRIVE" (E-02).
+	- LNK File Found: C:\Users\cksu\AppData\Roaming\Microsoft\Windows\Recent\AEGIS_Circuit_Diagram_V3.lnk
+	- Target Path: D:\Confidential\Project_AEGIS\AEGIS_Circuit_Diagram_V3.gds
+	- LNK Creation Time: 2026-02-18 14:35:10 KST
+	- Jump List Entries: AutomaticDestinations for Windows Explorer shows frequent access to the D:\Confidential directory on the timestamp matching the USB insertion.
+
+3. Network and Browser Activity
+	Chrome browser history (History SQLite database) on E-01 reveals the following:
+	- 2026-02-18 15:02:11 KST: URL visited: https://mail.google.com/mail/u/0/#compose
+	- 2026-02-18 15:08:44 KST: URL visited: https://mail.google.com/mail/u/0/s/?view=att&th=... (Indicating file attachment upload).
+	- Prefetch Analysis: CHROME.EXE was executed at 15:01:05 KST, immediately following the file copying activity from the D: drive.
+
+4. Multi-Step Technical Reasoning: Correlation of Data Leakage
+	The analyst correlated three distinct artefacts to prove intent and action:
+	1. USB Connection: Registry keys prove a specific personal device (E-02) was connected at 14:28.
+	2. File Access: LNK files prove that while the USB was connected, the suspect opened "AEGIS_Circuit_Diagram_V3.gds" directly from the USB's drive letter (D:).
+	3. Exfiltration: Browser SQLite logs and associated temporary files in AppData\Local\Google\Chrome\User Data\Default\Cache contain remnants of a multi-part POST request to Gmail servers at 15:08, with a payload size (approx. 45MB) consistent with the target circuit design files.

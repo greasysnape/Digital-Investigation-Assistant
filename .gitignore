@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+*.sh
+
+# Models (should download manually and place in)
+models/*/
+
+# Databases
+vector_db/*.faiss
+vector_db/*.json
+cases/*/case_db/*.faiss
+cases/*/case_db/*.json
+
+# Session history and attachments
+history/**/*.json
+checkpoints.db
+attachments/*
+!attachments/.gitkeep
+
+# Evaluation results and cached responses
+eval/results/*
+!eval/results/ragas_testset.json
+eval/scenarios/responses/
+eval/scenarios/vanilla/
+eval/scenarios/ragonly/
+eval/scenarios/commercial/
+eval/eval_log.jsonl
+
+# OS
+.DS_Store
+Thumbs.db

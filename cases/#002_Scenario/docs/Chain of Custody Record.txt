@@ -1,0 +1,12 @@
+Item Reference: E-01 (Samsung Galaxy Book 3 Pro)
+Initial Hash (SHA-256): 7f8a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e
+
+Date/Time,Action,From (Released By),To (Received By),Purpose / Notes
+2024-03-02 09:45,Seizure & Bagging,Sgt. Lee Min-ho,Sgt. Lee Min-ho,Transport to Digital Lab. Secured in Faraday Bag #9901.
+2024-03-02 11:20,Evidence Check-in,Sgt. Lee Min-ho,Inv. Kang Do-yun,Submission for forensic imaging. Integrity seal verified intact.
+2024-03-02 13:00,Forensic Imaging,Inv. Kang Do-yun,Inv. Kang Do-yun,Physical image created via Write Blocker (Tableau T35u). Hash verified.
+2024-03-05 16:30,Evidence Storage,Inv. Kang Do-yun,Custodian Kim Young-ha,Analysis complete. Item moved to long-term climate-controlled storage.
+2024-03-10 10:00,Integrity Audit,Custodian Kim Young-ha,Auditor Park Sang-hoon,Quarterly audit. Hash verification re-confirmed: No changes detected.
+
+Storage Conditions:
+All digital evidence is stored in the SMPA Cyber Lab Evidence Room (Room 302). Access is restricted via biometric authentication. Evidence is kept in electromagnetic shielding containers at a constant temperature of 20°C and 40% humidity.

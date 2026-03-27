@@ -1,0 +1,12 @@
+Item Reference: E-01 (Samsung Galaxy Book4 Pro)
+
+Action,Date/Time (KST),From (Released By),To (Received By),Purpose / Integrity Check
+Seizure,2026-03-10 09:45,Kim Chul-su (Suspect),Sgt. Park Min-ho,Initial collection. Item sealed in anti-static bag #A-991.
+Transfer,2026-03-10 13:00,Sgt. Park Min-ho,Evidence Locker A-1,Temporary storage awaiting transport to Digital Lab.
+Analysis,2026-03-11 09:00,Evidence Locker A-1,Insp. Lee Jung-hoon,Extraction/Imaging. Hash Verified: 7d5e4f2... (No change).
+Imaging,2026-03-11 11:30,Insp. Lee Jung-hoon,Forensic Server S-4,Creation of bit-stream image for analysis. Write-blocker used.
+Return,2026-03-13 17:00,Insp. Lee Jung-hoon,Evidence Locker A-1,Analysis complete. Evidence resealed with tamper-evident tape #T-442.
+
+Integrity Verification: 
+	- Physical seals remained intact during all transfers.
+	- SHA-256 verification was performed before and after the imaging process on March 11, 2026. The values matched exactly, confirming no data alteration occurred during the investigative process as per the Criminal Procedure Act Article 106.

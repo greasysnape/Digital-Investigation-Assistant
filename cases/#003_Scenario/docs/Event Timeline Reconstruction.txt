@@ -1,0 +1,12 @@
+Timezone: KST (UTC+9)
+
+Date,Time,Event,Evidence Source
+2026-02-24,10:15:22,"Web search: ""Mutual legal assistance treaty South Korea US Google""",Chrome History (E-01)
+2026-02-25,14:30:00,Routine login to Mirae Global corporate VPN (Remote access),System Event Log (E-01)
+2026-02-28,11:05:41,Opened 2025_Q4_Overseas_Transfer_List.xlsx via Google Drive FS,LNK Files / RecentDocs
+2026-03-02,09:00:15,"KakaoTalk Message: ""Did you clear the drive?""",KakaoTalk.db (E-03)
+2026-03-02,09:05:30,"Reply: ""Working on it. Moving files to Talk Drawer now.""",KakaoTalk.db (E-03)
+2026-03-09,23:45:10,External SSD (E-02) connected to Laptop (E-01),Registry (USBSTOR)
+2026-03-09,23:50:00,Execution of Eraser.exe (File wiping utility),Windows Prefetch
+2026-03-10,00:15:45,Large-scale file deletion synced to Google Drive cloud,Google Drive Sync Logs
+2026-03-10,09:30:00,Execution of Search and Seizure Warrant,Case File 2026-KNPA-DIG-003

@@ -1,0 +1,25 @@
+Case Reference: 2026-KNPA-DIG-003
+Date: March 13, 2026
+Investigating Unit: Cyber Crime Investigation Division 2, Seoul Metropolitan Police Agency
+Lead Investigator: Inspector Lee Jung-hoon
+
+1. Suspect Profile
+- Name: Kim Chul-su (Pseudonym)
+- Occupation: Former Chief Financial Officer, Mirae Global Trading Co.
+- Identification Number: 850312-1XXXXXX
+- Residence: 102-1204, Hanshin Apartments, Seocho-gu, Seoul
+
+2. Alleged Offense
+The suspect is alleged to have committed Professional Embezzlement and Breach of Trust (Criminal Act Article 355 & 356). Between June 2025 and January 2026, Kim Chul-su reportedly diverted approximately 4.2 billion KRW from company operational funds into private accounts. It is believed that ledger data and communication logs regarding these transactions were moved to cloud storage services prior to his resignation to avoid internal audits.
+
+3. Timeline of Events
+- 2025-11-15: Internal whistleblowing report filed regarding irregular overseas wire transfers.
+- 2026-01-10: Suspect abruptly resigns from Mirae Global Trading Co.
+- 2026-02-15: Formal complaint filed by the company legal representative.
+- 2026-03-10: Search and Seizure warrant (2026-HEON-7782) executed at the suspect’s residence.
+
+4. Targets of Examination
+- Hardware: One (1) Windows 11 Laptop seized at the scene.
+- Accounts:
+	- Google Account: chulsu.kim85@gmail.com (Suspected use of Google Drive for ledger storage).
+ 	- KakaoTalk: ID kcs_mirae (Suspected use of "Talk Drawer" cloud storage for communication logs).

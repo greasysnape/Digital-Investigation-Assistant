@@ -1,0 +1,18 @@
+Analysis Period: March 11, 2026 – March 13, 2026
+Tools Utilized: Autopsy 4.21, Magnet AXIOM 7.8, Volatility 3, DB Browser for SQLite
+
+1. Cloud Artifact Discovery (Local Synchronization)
+	Analysis of Item E-01 revealed active synchronization of cloud services.
+	- Path: C:\Users\Chulsu\Google Drive\My Drive\Financial_Backup\
+	- Findings: Presence of several .xlsx files with "Confidential" in the metadata. Though the local files were set to "Online-only," LNK files in C:\Users\Chulsu\AppData\Roaming\Microsoft\Windows\Recent\ confirm that the suspect opened 2025_Q4_Overseas_Transfer_List.xlsx on February 28, 2026.
+	- Registry Key: HKEY_CURRENT_USER\Software\Google\DriveFS\Share shows the account chulsu.kim85@gmail.com as the primary owner.
+
+2. Messaging and Social Artifacts
+	- Database: C:\Users\Chulsu\AppData\Local\Kakao\KakaoTalk\users\[User_Hash]\db\KakaoTalk.db
+	- Findings: The chat_logs table contains references to "Talk Drawer" (Kakao's cloud storage). Specifically, a message sent on 2026-01-15 states: "I have moved the final records to the Drawer. Deleting the local copies now."
+
+3. Multi-Step Technical Reasoning: Evidence of Intentional Concealment
+	Investigators identified a USB connection log (Vendor ID: 0781, Product ID: 5583) matching Item E-02 at 23:45 KST on March 9, 2026—just hours before the seizure.
+	- Step A: Prefetch analysis for Eraser.exe showed execution at 23:50 KST.
+	- Step B: Shellbag analysis for Control Panel\Network and Internet\Network Connections indicated a high volume of data upload during this window.
+	- Conclusion: The suspect utilized a file shredding utility to delete local ledgers and subsequently synced the deletions to the cloud to ensure the "local" drive remained clean, while the "cloud" version remained accessible via encrypted credentials.

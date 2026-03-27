@@ -1,0 +1,13 @@
+Timezone: KST (UTC+9)
+
+Date,Time,Event Description,Evidence Source
+2024-02-14,09:12:00,System Boot (E-01). User login: 'Chulsu'.,Windows Event Log (ID 4624)
+2024-02-14,10:45:30,VPN Tunnel Established via SafeWay VPN Client.,SafeWay VPN App Log
+2024-02-14,11:05:12,Tor Browser launched.,Windows Prefetch / RAM
+2024-02-15,23:30:15,Access to shadow_net_v3.onion/upload.php detected.,Tor Browser places.sqlite
+2024-02-16,01:15:00,Large data egress (approx. 2.4GB) via VPN interface.,Network Traffic Logs (ISP)
+2024-02-18,14:00:00,"Routine activity: Search for ""Python Django Tutorial"" on Google.",Chrome History (E-01)
+2024-02-22,19:22:45,External SSD (E-02) connected to system.,Registry (USBSTOR)
+2024-02-22,19:30:10,VeraCrypt Volume mounted from E:\Backups\project_archive.dat.,VeraCrypt Driver Logs
+2024-02-28,21:00:00,Final upload session logged by international partners.,BKA Investigative Report
+2024-03-02,09:30:00,Search warrant executed; Device seizure and RAM capture.,Case File 2024-SMPA-002

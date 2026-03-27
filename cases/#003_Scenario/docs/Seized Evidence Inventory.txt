@@ -1,0 +1,12 @@
+Case Number: 2026-KNPA-DIG-003
+Seizure Date: March 10, 2026, 09:30 KST
+Location: Residence of Kim Chul-su, Seoul
+
+Item #,Description,Manufacturer / Model,Serial Number,SHA-256 Hash Value (Physical Image)
+E-01,Laptop Computer (Windows 11 Home),Samsung Galaxy Book4 Pro,SN: ABC123456789XYZ,7d5e4f2a1b9c8d7e6f5a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e
+E-02,External SSD (1TB),SanDisk Extreme Portable,SN: SD-9988776655,a1b2c3d4e5f60718293a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e
+E-03,Mobile Phone (Android),Samsung Galaxy S24 Ultra,SN: IMEI-354678/10/123,f9e8d7c6b5a43210f9e8d7c6b5a43210f9e8d7c6b5a43210f9e8d7c6b5a4321
+
+Seizing Officer: Sergeant Park Min-ho
+Witness: Choi Young-hee (Property Manager)
+Notes: All items were powered off and placed in Faraday bags at the scene. Write-blockers (Tableau TX1) were utilized during the initial imaging phase at the digital forensics lab.

@@ -1,0 +1,16 @@
+Item Reference: E-01, E-02, E-03
+Case Number: 2026-INTEL-0042
+
+Transaction No.,Date/Time,Released By,Received By,Purpose of Transfer,Integrity Check (Hash Match)
+1,2026-03-05 11:45,Insp. Park Ji-hoon,(Scene Seizure),Seizure from suspect's residence.,Original Acquisition
+2,2026-03-05 14:20,Insp. Park Ji-hoon,Spec. Choi Sung-min,Transfer to Digital Forensic Lab for imaging.,Confirmed (Verified)
+3,2026-03-05 18:30,Spec. Choi Sung-min,Evidence Locker A,Storage following successful bit-stream imaging.,Confirmed (Verified)
+4,2026-03-06 09:00,Evidence Locker A,Spec. Choi Sung-min,Removal for detailed analysis and reporting.,Confirmed (Verified)
+
+Storage Conditions:
+- Items E-01 and E-02 stored in anti-static bags.
+- Item E-03 stored in a Signal-Shielding Faraday Bag (Model: FB-PRO-3) with external power bank connection to maintain device state.
+- All items stored in a climate-controlled, restricted-access evidence room at the Gyeonggi Southern Provincial Police Agency.
+
+Verification Statement:
+In accordance with Article 106 of the Criminal Procedure Act, the integrity of the evidence has been maintained through continuous hash value verification. No modifications were made to the original media during the examination process.

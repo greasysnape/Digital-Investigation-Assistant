@@ -1,0 +1,14 @@
+Case: #001 — Insider Trade Secret Theft
+Timezone: KST (UTC+9)
+
+Date,Time,Event Description,Evidence Source
+2026-02-10,09:15:00,Suspect logs into corporate workstation; routine CAD work.,Windows Security Logs
+2026-02-12,11:30:22,"Search query: ""Best semiconductor companies in Singapore.""",Chrome History (E-01)
+2026-02-16,22:14:05,Access to \\SERVER-AEGIS\DESIGN_DOCS\5NM_PMIC.,Server Audit Logs
+2026-02-18,14:28:12,USB Device (E-02) mounted.,SYSTEM Registry (E-01)
+2026-02-18,14:35:10,File AEGIS_Circuit_Diagram_V3.gds copied to E-02.,LNK File / USN Journal
+2026-02-18,15:02:11,Login to personal Gmail: cskim.researcher@gmail.com.,Browser History (E-01)
+2026-02-18,15:08:44,Attachment of .zip file to outbound email.,Chrome Cache / Firewall
+2026-02-18,16:45:03,USB Device (E-02) safely removed.,setupapi.dev.log (E-01)
+2026-02-25,09:00:00,Submission of resignation letter via HR portal.,Corporate HR Records
+2026-03-05,07:30:00,Execution of search and seizure warrant.,Investigation Report

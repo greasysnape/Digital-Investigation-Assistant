@@ -1,0 +1,24 @@
+Analysis Period: March 03, 2024 – March 05, 2024
+Forensic Examiner: Investigator Kang Do-yun
+Tools Utilized: Autopsy 4.21, Magnet AXIOM 7.8, Volatility 3, FTK Imager 4.7
+
+1. Volatile Memory Analysis (E-01-RAM)
+Analysis of the RAM dump confirms an active Tor Browser process (tor.exe, PID: 4412) at the time of seizure. Memory strings revealed fragments of a URL associated with the "ShadowNet" onion service.
+
+2. File System and Artefact Analysis (E-01)
+- Operating System: Windows 11 Pro (Version 22H2)
+- Web Activity: * C:\Users\Chulsu\AppData\Local\Tor Browser\Browser\Data\Browser\profile.default\places.sqlite contains history entries for dark web directories dated between 2024-02-15 and 2024-03-01.
+	- Prefetch file TOR.EXE-A9B8C7D6.pf indicates the Tor Browser was executed 42 times, with the last run date matching the final upload timestamp reported by BKA.
+- Registry Analysis:
+	- HKCU\Software\SafeWayVPN\Settings: Shows "Auto-connect on boot" enabled.
+	- System\CurrentControlSet\Enum\USBSTOR: Logs reveal Item E-02 (SSD) was frequently connected.
+
+3. Key Technical Finding: Multi-Step Obfuscation
+During the analysis of Item E-02 (External SSD), no incriminating files were initially visible in the active partition. However, the examiner identified a suspicious 400GB file named project_archive.dat located in E:\Backups\.
+
+Reasoning Process:
+1. Anomaly Detection: The file project_archive.dat lacked standard header signatures for archive formats (ZIP/RAR) but occupied significant space.
+2. LNK File Correlation: Analysis of C:\Users\Chulsu\AppData\Roaming\Microsoft\Windows\Recent\ on E-01 revealed an LNK file SecureVol.lnk pointing to a volume X:\.
+3. VeraCrypt Identification: Registry key HKLM\SYSTEM\CurrentControlSet\Services\VeraCrypt confirmed the driver was installed.
+4. Credential Retrieval: Memory forensics on E-01-RAM successfully extracted a passphrase fragment from a discarded clipboard buffer.
+5. Decryption: Using the recovered passphrase, the examiner mounted project_archive.dat as a VeraCrypt container. Inside, a directory structure titled /ShadowNet/Uploads/Completed/ was discovered containing 1,422 CSAM media files.

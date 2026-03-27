@@ -1,0 +1,15 @@
+Search Warrant No: 2026-SW-0892
+Execution Date: March 05, 2026, 07:30 KST – 11:45 KST
+Location of Seizure: Suspect’s Residence (Seongnam-si, Gyeonggi-do)
+Seizing Officer: Inspector Park Ji-hoon
+Witness: Lee Min-ho (Property Manager)
+
+Item No.	Description	Serial Number	Model Name	SHA-256 Hash Value (Physical Image)
+E-01	Laptop Computer	SN: J83K299X01	Samsung Galaxy Book 4 Pro	f4e3c2a1b0d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d1e0f9a8b7c6d5e4f3
+E-02	USB Flash Drive	SN: SD-128-A992	SanDisk Ultra USB 3.0	a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f90
+E-03	Smartphone	SN: R3CW2024SYL	Samsung Galaxy S24 Ultra	8e7d6c5b4a3f2e1d0c9b8a7f6e5d4c3b2a1f0e9d8c7b6a5f4e3d2c1b0a9f8e7d
+
+Seizure Notes:
+E-01 was found powered on in the living room; a live memory acquisition was performed using Magnet RAM Capture prior to shutdown.
+E-02 was discovered in the suspect’s desk drawer, concealed inside a stationary box.
+E-03 was seized from the suspect’s person; placed in a shielded Faraday bag to prevent remote wiping.
